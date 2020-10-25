@@ -20,15 +20,15 @@
     "type": "git",
     "url": "ssh://git@github.com:chayka/jQuery.Scroolly.git"
   },
-  "scripts": {
-    "build": "npm install && grunt",
-    "start": "grunt watch"
-  },
+  "scripts": {},
   "main": "src/jquery.scroolly.js",
   "devDependencies": {
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
-    "grunt": "*"
+    "bili": "^5.0.5",
+    "prettier": "^2.1.2",
+    "rollup-plugin-typescript2": "^0.28.0",
+    "typescript": "^4.0.3"
+  },
+  "peerDependencies": {
+    "jquery": "^3.5.1"
   }
 }
