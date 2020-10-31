@@ -2,6 +2,9 @@
   "name": "jquery.scroolly",
   "title": "jQuery.Scroolly",
   "description": "Scroolly is a handy jQuery plugin that simplifies greatly scroll-effects scripting.",
+  "main": "./src/jquery.scroolly.js",
+  "module": "./src/jquery.scroolly.js",
+  "unpkg": "./dist/jquery.scroolly.iife.min.js",
   "keywords": [
     "scroolly",
     "scroll",
@@ -20,8 +23,9 @@
     "type": "git",
     "url": "ssh://git@github.com:chayka/jQuery.Scroolly.git"
   },
-  "scripts": {},
-  "main": "src/jquery.scroolly.js",
+  "scripts": {
+    "build": "bili"
+  },
   "devDependencies": {
     "bili": "^5.0.5",
     "prettier": "^2.1.2",
